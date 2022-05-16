@@ -28,3 +28,7 @@ git remote add origin https://github.com/isaranja/e2e-ml-ops.git
 git branch -M main
 git push origin main
 ```
+
+```bash
+dvc metrics diff
+```
