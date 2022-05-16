@@ -32,3 +32,24 @@ git push origin main
 ```bash
 dvc metrics diff
 ```
+to command -
+```bash
+tox
+```
+for rebuilding
+```bash
+tox -r
+```
+pytest command
+```bash
+pytest -v
+```
+setup commands -
+```bash
+pip install -e .
+```
+
+build your own package commands -
+```bash
+python setup.py sdist bdist wheel
+```
